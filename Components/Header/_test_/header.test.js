@@ -1,8 +1,9 @@
 import { render, screen } from '@testing-library/react';
-import App from '/Users/wotim/Documents/reactPractice/my-app/src/App.js';
+import Header from '../../Header/header.js'
 
 test('renders my header', () => {
-  render(<App />);
+  render(<Header/>);
   const linkElement = screen.getByText(/Submit Something/);
   expect(linkElement).toBeInTheDocument();
 });
+
