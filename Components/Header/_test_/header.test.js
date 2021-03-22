@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react';
-import Header from '../../Header/header.js'
+import Header from './Header/header.js'
 
 test('renders my header', () => {
   render(<Header/>);

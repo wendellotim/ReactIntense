@@ -1,11 +1,12 @@
 import React from 'react'
-import Button from '/Users/wotim/Documents/reactPractice/my-app/src/Components/Button/button.js'
-import Header from '/Users/wotim/Documents/reactPractice/my-app/src/Components/Header/header.js'
+import Button from './Components/Button/button.js'
+import Header from './Components/Header/header.js'
 
 class App extends React.Component {
   render(){
     return(
-      <div>
+      <div className="App">
+        React in test
         <Header/>
         <Button/>
     </div>
@@ -14,3 +15,5 @@ class App extends React.Component {
   }
 }
 export default App;
+
+
